@@ -1,0 +1,19 @@
+# ~/.config/mise/config.toml
+# Global mise configuration — default language versions
+
+[settings]
+# Read existing .nvmrc, .python-version, .tool-versions files
+legacy_version_file = true
+# Auto-install missing tools when entering a directory
+auto_install = true
+# Parallel installation jobs
+jobs = 4
+
+[tools]
+# Global defaults — override per-project with `mise use <tool>@<version>`
+node = "22"           # Node.js — portal UI, frontend tooling
+python = "3.12"       # Python — Jinja2 rendering, scripting
+go = "1.22"           # Go — Naadi CLI tools, spine-core backend
+java = "temurin-21"   # OpenJDK 21 LTS — golden paths Java templates
+gradle = "8.12"       # Java build tool — golden paths
+maven = "3.9"         # Java build tool — alternative to Gradle

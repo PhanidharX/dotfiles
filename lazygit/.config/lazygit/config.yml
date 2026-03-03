@@ -1,0 +1,19 @@
+gui:
+  theme:
+    activeBorderColor:
+      - "#34d399"
+      - bold
+    inactiveBorderColor:
+      - "#57534e"
+    selectedLineBgColor:
+      - "#44403c"
+  showCommandLog: false
+  skipRewordInEditorWarning: true
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
+  autoFetch: true
+  autoRefresh: true
+os:
+  editPreset: nvim

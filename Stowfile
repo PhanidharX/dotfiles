@@ -1,0 +1,11 @@
+# Stowfile — packages to symlink via GNU Stow
+# Usage: ./stow.sh (reads this file, stows everything)
+
+fish        # Shell config, aliases, functions, plugins
+tmux        # Terminal multiplexer config
+ghostty     # Terminal emulator theme and keybinds
+git         # Git config, global ignores, delta pager
+lazygit     # Lazygit theme and editor preset
+direnv      # Per-directory env var config
+mise        # Version manager config — global language defaults
+# nvim      # TODO — next phase

@@ -1,0 +1,39 @@
+[user]
+    name = Phanidhar
+    # email = your-email@example.com
+
+[core]
+    editor = nvim
+    pager = delta
+    excludesfile = ~/.gitignore_global
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = true
+
+[push]
+    autoSetupRemote = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
+[delta]
+    navigate = true
+    side-by-side = true
+    line-numbers = true
+    syntax-theme = Nord
+
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status -sb
+    lg = log --oneline --graph --decorate -20
+    amend = commit --amend --no-edit
+    wip = !git add -A && git commit -m 'wip'
+    undo = reset HEAD~1 --mixed
