@@ -15,5 +15,5 @@ node = "22"           # Node.js — portal UI, frontend tooling
 python = "3.12"       # Python — Jinja2 rendering, scripting
 go = "1.22"           # Go — Naadi CLI tools, spine-core backend
 java = "temurin-21"   # OpenJDK 21 LTS — golden paths Java templates
-gradle = "8.12"       # Java build tool — golden paths
+gradle = "latest"       # Java build tool — golden paths
 maven = "3.9"         # Java build tool — alternative to Gradle

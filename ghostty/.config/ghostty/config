@@ -1,33 +1,11 @@
 # ─── FONT ───
 font-family = JetBrains Mono
-font-size = 14
+font-size = 16
 font-thicken = true
 
-# ─── THEME (Naadi: stone + emerald) ───
-background = #1c1917
-foreground = #e7e5e4
-cursor-color = #34d399
-cursor-style = block
-
-selection-background = #44403c
-selection-foreground = #e7e5e4
-
-palette = 0=#1c1917
-palette = 8=#57534e
-palette = 1=#ef4444
-palette = 9=#f87171
-palette = 2=#34d399
-palette = 10=#6ee7b7
-palette = 3=#fbbf24
-palette = 11=#fcd34d
-palette = 4=#60a5fa
-palette = 12=#93c5fd
-palette = 5=#c084fc
-palette = 13=#d8b4fe
-palette = 6=#22d3ee
-palette = 14=#67e8f9
-palette = 7=#a8a29e
-palette = 15=#e7e5e4
+# ─── THEME ───
+# Catppuccin built-in — auto-switches with macOS appearance
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
 
 # ─── WINDOW ───
 window-padding-x = 8
