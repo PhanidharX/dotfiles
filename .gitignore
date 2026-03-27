@@ -4,3 +4,6 @@
 # Editor
 *.swp
 *.swo
+
+# Claude Code session state
+.claude/settings.local.json
