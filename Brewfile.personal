@@ -1,0 +1,5 @@
+# Brewfile.personal — personal machine only, not for work machines
+# Usage: brew bundle --file Brewfile.personal
+
+brew "tailscale"       # Mesh VPN — personal remote access
+brew "mosh"            # Mobile shell — personal SSH replacement

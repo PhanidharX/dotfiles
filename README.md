@@ -6,7 +6,8 @@ Dev environment managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
 ```bash
 # macOS
-brew bundle                    # install tools from Brewfile
+brew bundle                    # install tools from Brewfile (work-safe)
+brew bundle --file Brewfile.personal  # personal tools (tailscale, mosh) — skip on work machines
 ./stow.sh                     # link configs from Stowfile
 
 # Linux

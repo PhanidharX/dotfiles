@@ -38,11 +38,21 @@ brew "trivy"           # Vulnerability scanner — scans containers, filesystems
 
 # ── Cloud & Infrastructure ──
 brew "awscli"          # AWS CLI v2 — S3, ECR, ECS, IAM, CloudFormation, SST deploys
-brew "tailscale"       # Mesh VPN — secure remote access to dev machine from phone
+brew "kubectl"         # Kubernetes CLI — apply manifests, exec into pods, port-forward
+brew "helm"            # Kubernetes package manager — deploy charts, manage releases
+brew "k9s"             # Kubernetes TUI — live cluster view, logs, exec, port-forward
 cask "docker"          # Docker Desktop — containers for local Concourse, services
+
+# fly CLI is version-coupled to each Concourse server — managed separately:
+#   fly-install <version> <concourse-url>   (fish function in cloud-connect.fish)
+#   installs as ~/bin/fly-<version> so multiple versions coexist
+#   e.g. fly-7.11, fly-7.9 — call the matching version per target
 
 # ── Fonts ──
 cask "font-jetbrains-mono"  # Monospace font — used in Ghostty and nvim
+
+# ── Personal ──
+# See Brewfile.personal for software not suitable for work machines
 
 # ── Python Packages (post-install) ──
 # Run after brew bundle:
