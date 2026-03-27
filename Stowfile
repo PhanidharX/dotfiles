@@ -8,4 +8,4 @@ git         # Git config, global ignores, delta pager
 lazygit     # Lazygit theme and editor preset
 direnv      # Per-directory env var config
 mise        # Version manager config — global language defaults
-# nvim      # TODO — next phase
+nvim        # Neovim — LazyVim + Catppuccin Mocha

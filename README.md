@@ -22,16 +22,24 @@ fisher update                  # reads fish_plugins, installs everything
 tide configure                 # pick prompt style
 ```
 
+Then install tmux plugins (TPM):
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+# Start tmux, then press:  prefix + I  (Ctrl-a I)  to install plugins
+```
+
 ## Structure
 
 | Package  | What                                        |
 |----------|---------------------------------------------|
 | fish     | Shell config, aliases, functions, plugins    |
-| tmux     | Multiplexer config (Ctrl-a prefix)           |
-| ghostty  | Terminal theme and keybinds                  |
+| tmux     | Multiplexer config (Ctrl-a prefix, TPM)      |
+| ghostty  | Terminal theme and keybinds (Catppuccin)     |
 | git      | Git config, global ignores, delta pager      |
 | lazygit  | Theme and editor preset                      |
 | direnv   | Per-directory env var config                 |
+| nvim     | Neovim — LazyVim + Catppuccin Mocha          |
 
 ## Managing
 

@@ -58,3 +58,16 @@ done
 
 echo ""
 echo "✓ Done"
+
+# ─── Bootstrap: one-time installs that can't be stowed ───
+# Skip during dry-run or delete
+if [[ "$ACTION" != "dry-run" && "$ACTION" != "unstow" ]]; then
+    # TPM — Tmux Plugin Manager
+    TPM_DIR="$HOME/.tmux/plugins/tpm"
+    if [ ! -d "$TPM_DIR" ]; then
+        echo ""
+        echo "▸ Installing TPM (Tmux Plugin Manager)..."
+        git clone --depth=1 https://github.com/tmux-plugins/tpm "$TPM_DIR"
+        echo "  ✓ TPM installed — open tmux and press prefix+I to install plugins"
+    fi
+fi

@@ -37,3 +37,6 @@
     amend = commit --amend --no-edit
     wip = !git add -A && git commit -m 'wip'
     undo = reset HEAD~1 --mixed
+
+[include]
+    path = ~/.gitconfig.local
