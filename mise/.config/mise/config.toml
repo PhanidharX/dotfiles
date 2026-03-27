@@ -17,3 +17,4 @@ go = "1.22"           # Go — Naadi CLI tools, spine-core backend
 java = "temurin-21"   # OpenJDK 21 LTS — golden paths Java templates
 gradle = "latest"       # Java build tool — golden paths
 maven = "3.9"         # Java build tool — alternative to Gradle
+terraform = "latest"  # IaC — per-project override via .terraform-version (replaces tfenv)

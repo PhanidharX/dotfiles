@@ -9,3 +9,4 @@ lazygit     # Lazygit theme and editor preset
 direnv      # Per-directory env var config
 mise        # Version manager config — global language defaults
 nvim        # Neovim — LazyVim + Catppuccin Mocha
+zed         # Zed editor — Catppuccin auto dark/light, vim mode

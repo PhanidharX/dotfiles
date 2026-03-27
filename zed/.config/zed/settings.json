@@ -1,0 +1,53 @@
+{
+  // ── Theme ──
+  // Auto-switches with macOS appearance — matches ghostty + tmux
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+
+  // ── Font ── matches ghostty
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 16,
+  "ui_font_family": "JetBrains Mono",
+
+  // ── Editor ──
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "scrollbar": { "show": "never" },
+  "indent_guides": { "enabled": true },
+  "inlay_hints": { "enabled": true },
+  "format_on_save": "on",
+  "ensure_final_newline_on_save": true,
+  "tab_size": 2,
+  "soft_wrap": "none",
+
+  // ── Git ──
+  "git": {
+    "inline_blame": { "enabled": true }
+  },
+
+  // ── Terminal (built-in) ──
+  "terminal": {
+    "font_family": "JetBrains Mono",
+    "font_size": 16,
+    "shell": { "program": "/opt/homebrew/bin/fish" }
+  },
+
+  // ── AI Agent ──
+  "agent": {
+    "use_modifier_to_send": true,
+    "play_sound_when_agent_done": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5.3-codex"
+    },
+    "default_profile": "write"
+  },
+
+  // ── File Types ──
+  "file_types": {
+    "Jinja2": ["*.jinja", "*.jinja2", "*.j2", "**/*template*.html", "**/templates/*.html"]
+  }
+}

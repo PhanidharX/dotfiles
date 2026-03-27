@@ -25,13 +25,14 @@ brew "fswatch"         # File watcher — triggers rebuilds on save (golden path
 # ── Version Manager ──
 brew "mise"            # Polyglot version manager — replaces nvm, pyenv, SDKMAN. Manages node, python, go, java, gradle, maven per-project.
 
-# Languages are installed via mise, not brew:
+# Languages and versioned tools are installed via mise, not brew:
 #   mise use --global node@22
 #   mise use --global python@3.12
 #   mise use --global go@1.22
 #   mise use --global java@temurin-21
-#   mise use --global gradle@8.12
+#   mise use --global gradle@latest
 #   mise use --global maven@3.9
+#   mise use --global terraform@latest   (replaces tfenv — .terraform-version files still work)
 
 # ── Security Scanning ──
 brew "trivy"           # Vulnerability scanner — scans containers, filesystems, IaC locally
